@@ -1,0 +1,85 @@
+Playwright
+------------
+
+Playwright enables reliable end-end tessting foe mordern apps.
+
+Applications supported - Web browser apps, modnile web apps, API
+
+Languages supported - javaScript, typeScript, Java, Python, .Net(C#)
+
+Browsers suppoerted - Chrome, safari, Firefox
+
+OS supported - Windows, MarcOS Linux, Supported CI Runs
+
+Features playwright
+------------------
+- Free & ioen source
+- Multiple-Browser, Multiple-Language
+- Easy setuo and configuration
+- Functional, API, accessibility testing
+- Built-in reporters, custom reports
+- CI, CD, Dockers
+- Parallel testing
+- Auto wait
+- Built-in assertions
+- Multi tab & multi window 
+- Frames, shadow dom
+- Test parameter
+- Emulate mobile devices
+- Fast
+
+Playwright installations     shift + Alt + Down arrow key--> repeat last command
+--------------------------
+Nodejs
+Vs Code
+Create a new folder --> open folder on vscode--> open a new twrminal and input --> npm init playwright@latest // to instal plawright in the VScode terminal
+npm playwright -v --> tells you the version of playwright installed.
+- playwright.config.js --> playwright configuration file.
+- package.json --> node project management file file is used to specify all the dependencied modules ie packages.
+- tests -----we can creat all tech plawright tests
+
+Playwright installation with vsCode extentions
+------------------------------
+create a folder 
+search for playwright test for VScode in the extentions and install 
+View--> command palette --> search --> Test: install playwright
+
+Commands
+-----------
+- npx playwright test // executes test in headlesss mode by default
+- npx playwright test  // executes test in headed mode
+- npx playwright show-report
+
+How to Create and Run Playwrite Tests
+---------------
+- write test scripts
+-----------------
+- const{test,expect} = require('@playwright/test'); // instal test to wtite the testsnad expect to add validations
+ // write test block- test('testname', ()
+- 
+
+Javascript is a asyncromised programming language
+
+- using code generator 
+
+
+// the internet 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
